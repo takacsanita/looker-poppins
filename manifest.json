@@ -1,8 +1,14 @@
 {
   "name": "Poppins Custom Viz",
-  "description": "Egyedi vizualizáció Poppins betűtípussal",
+  "description": "Custom visualization using Poppins font",
+  "logoUrl": "https://takacsanita.github.io/looker-poppins/index.css",
+  "company": "Custom",
+  "companyUrl": "https://takacsanita.github.io/looker-poppins/",
+  "supportUrl": "https://takacsanita.github.io/looker-poppins/",
+  "privacyPolicyUrl": "https://takacsanita.github.io/looker-poppins/",
   "resources": {
     "js": ["https://takacsanita.github.io/looker-poppins/index.js"],
     "css": ["https://takacsanita.github.io/looker-poppins/index.css"]
-  }
+  },
+  "devMode": true
 }
