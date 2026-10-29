@@ -2,7 +2,7 @@
   "name": "Poppins Custom Viz",
   "description": "Egyedi vizualizáció Poppins betűtípussal",
   "resources": {
-    "js": ["index.js"],
-    "css": ["index.css"]
+    "js": ["https://takacsanita.github.io/looker-poppins/index.js"],
+    "css": ["https://takacsanita.github.io/looker-poppins/index.css"]
   }
 }
