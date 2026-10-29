@@ -1,0 +1,8 @@
+{
+  "name": "Poppins Custom Viz",
+  "description": "Egyedi vizualizáció Poppins betűtípussal",
+  "resources": {
+    "js": ["index.js"],
+    "css": ["index.css"]
+  }
+}
