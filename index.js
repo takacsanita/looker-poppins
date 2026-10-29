@@ -1,16 +1,12 @@
-const dscc = require('@google/dscc');
-
-function drawViz(data) {
-  // Meglévő tartalom törlése
-  document.body.innerHTML = '';
-
-  // Egy konténer elem létrehozása
-  const container = document.createElement('div');
-  container.className = 'my-custom-chart';
-  container.innerText = 'Poppins betűtípusú teszt vizualizáció!';
-
-  document.body.appendChild(container);
-}
-
-// Feliratkozás az adatok változására és kirajzolás
-dscc.subscribeToData(drawViz, { transform: dscc.objectTransform });
+// Google DSCC könyvtár dinamikus betöltése
+(function() {
+  var script = document.createElement('script');
+  script.src = 'https://www.gstatic.com/datastudio/apps/viz_library/dscc.min.1.js';
+  script.onload = function() {
+    function drawViz(data) {
+      document.body.innerHTML = '<div class="poppins-box">Poppins betűtípusú teszt szöveg!</div>';
+    }
+    dscc.subscribeToData(drawViz, {transform: dscc.objectTransform});
+  };
+  document.head.appendChild(script);
+})();
