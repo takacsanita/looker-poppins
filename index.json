@@ -2,21 +2,12 @@
   "data": [
     {
       "id": "concepts",
-      "label": "Adatok",
+      "label": "Data",
       "elements": [
         {
           "id": "dimension",
-          "label": "Dimenzió",
+          "label": "Dimension",
           "type": "DIMENSION",
-          "options": {
-            "min": 0,
-            "max": 1
-          }
-        },
-        {
-          "id": "metric",
-          "label": "Mutató",
-          "type": "METRIC",
           "options": {
             "min": 0,
             "max": 1
